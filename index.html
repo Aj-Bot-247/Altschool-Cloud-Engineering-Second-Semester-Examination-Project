@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Future of CloudBox Africa</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .fade-in {
+    animation: fadeIn 0.8s ease-out both;
+  }
+</style>
+<style>
+        /* Minimal CSS to move the dropdown indicator to the right */
+        summary {
+            list-style: none; /* Remove default marker */
+            cursor: pointer;
+            display: flex; /* Allow flexbox properties */
+            justify-content: space-between; /* Pushes content and marker to opposite ends */
+            align-items: center; /* Vertically align content and marker */
+            padding-right: 10px; /* Add some padding to the right for spacing */
+        }
+
+        /* Re-add the default marker using a pseudo-element and rotate it */
+        summary::marker,
+        summary::-webkit-details-marker {
+            display: none; /* Hide default marker (redundant if list-style: none works for browser) */
+        }
+
+        /* Custom arrow on the right */
+        summary::after {
+            content: '\25BC'; /* Down-pointing triangle (▼) */
+            font-size: 0.8em; /* Adjust size as needed */
+            margin-left: 8px; /* Space between title and arrow */
+            transition: transform 0.2s ease-in-out; /* Smooth transition for rotation */
+        }
+
+        /* Rotate arrow when details is open */
+        details[open] summary::after {
+            transform: rotate(180deg); /* Rotate 180 degrees when open to point up */
+        }
+    </style>
+  </head>
+  <body>
+   <body class="flex flex-col min-h-screen bg-gray-100 text-gray-800">
+  <main class="flex-grow">
+    <header class="bg-gray-200 text-center p-6 fade-in">
+      <h1 class="text-3xl sm:text-4xl font-bold text-blue-700">Ajibola Anjorin - Cloud Engineer</h1>
+    </header>
+  <section class="bg-white p-6 rounded-xl shadow fade-in max-w-3xl mx-auto mt-8">
+            <details>
+                <summary class="text-xl font-semibold text-blue-700">The Future of CloudBox Africa</summary>
+                <div class="mt-2">
+                   <p><strong>Pitch:</strong> CloudBox Africa is a simple hosting platform designed for small African businesses that want to go online without stress. Instead of struggling with complex tools, business owners can launch their websites in minutes—no coding, no confusion. CloudBox Africa handles the technical side—servers, security, and updates—so they can focus on running their business.</p>
+                </div>
+            </details>
+        </section>
+
+        <section class="bg-white p-6 rounded-xl shadow fade-in max-w-3xl mx-auto mt-6">
+            <details>
+                <summary class="text-xl font-semibold text-blue-700">About Me</summary>
+                <div class="mt-2">
+                   <p>I'm <strong>Ajibola Anjorin</strong>, an aspiring Cloud Engineer currently studying at Altschool Africa. I’m passionate about building simple, reliable cloud solutions that help real people and businesses succeed online.</p>
+  <p class="mt-2">My skills include working with Linux systems, configuring Nginx as a reverse proxy, managing services with systemd, deploying Node.js applications, and securing websites with HTTPS.</p>
+  <p class="mt-2">So far, I’ve completed projects involving end-to-end server setup, app deployment, and traffic routing with Nginx. I’ve also worked on building landing pages and ensuring server uptime with background process management.</p>
+  <p class="mt-2">I’m focused on using these skills to create accessible, practical tools—like <strong>CloudBox Africa</strong>, a startup idea aimed at helping small African businesses launch websites without the usual technical roadblocks.</p>
+                </div>
+            </details>
+        </section>
+
+<section class="bg-white p-6 rounded-xl shadow fade-in max-w-3xl mx-auto mt-6">
+  <h2 class="text-xl font-semibold">Projects</h2>
+  <p>
+    My first project from the previous semester: 
+    <a href="https://ajibolacss-assignment.netlify.app/" class="text-blue-600 underline hover:text-blue-800" target="_blank">
+      Visit here
+    </a>
+  </p>
+</section>
+<section class="bg-white p-6 rounded-xl shadow fade-in max-w-3xl mx-auto mt-6">
+  <h2 class="text-xl font-semibold text-blue-700 mb-2">Contact Me</h2>
+  <p>If you want to get in touch, feel free to email me at:</p>
+  <p class="mt-2 text-blue-600 font-medium">
+    <a href="mailto:ajibolajr7@gmail.com" class="underline hover:text-blue-800">
+      ajibolajr7@gmail.com
+    </a>
+  </p>
+</section>
+
+  </main>
+  <footer class="bg-gray-200 text-center py-4 mt-auto ">
+    © 2025 Ajibola Anjorin. All rights reserved.
+  </footer>
+
+</body>
+
+</html>
+
+ 
+
+  
